@@ -42,7 +42,7 @@ def main():
 
 
 
-personalize_runtime = boto3.client('personalize-runtime')
+personalize_runtime = boto3.client('personalize-runtime', region_name='us-east-1')
 
 usr='12344'
 auth=pd.read_csv('c_auth.csv')
