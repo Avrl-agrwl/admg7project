@@ -24,7 +24,7 @@ def main():
     subject="ADMG7 Bank: Your daily dose of handpicked Products"
     try:
         if not cust_name:
-            body="Hi "+usr+",\nBased on your recent interest in our " + str(product)+" service, these are the products you may like: \n1. " + prod_list[0]+"\n2. "+ prod_list[1]+" \n3. "+ prod_list[2]+" \n4. "+ prod_list[3]
+            body="Hi customer "+usr+",\nBased on your recent interest in our " + str(product)+" service, these are the products you may like: \n1. " + prod_list[0]+"\n2. "+ prod_list[1]+" \n3. "+ prod_list[2]+" \n4. "+ prod_list[3]
         else:
             body="Hi "+cust_name+",\nBased on your recent interest in our " + str(product)+" service, these are the products you may like: \n1. " + prod_list[0]+"\n2. "+ prod_list[1]+" \n3. "+ prod_list[2]+" \n4. "+ prod_list[3]
     except:
