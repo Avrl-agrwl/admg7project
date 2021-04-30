@@ -24,9 +24,9 @@ def main():
     subject="ADMG7 Bank: Your daily dose of handpicked Products"
     try:
         if not cust_name:
-            body="Hi customer "+usr+",\nBased on your recent interest in our " + str(product)+" service, these are the products you may like: \n1. " + prod_list[0]+"\n2. "+ prod_list[1]+" \n3. "+ prod_list[2]+" \n4. "+ prod_list[3]
+            body="Hi customer "+usr+",\n \nBased on your recent interest in our " + str(product)+" service, these are the products you may like: \n1. " + prod_list[0]+"\n2. "+ prod_list[1]+" \n3. "+ prod_list[2]+" \n4. "+ prod_list[3]+"\n \nVisit our website at www.bankrecommendation.herokuapp.com to know more.\n \n Regards,\nGroup-7\nADMG7 Bank"
         else:
-            body="Hi "+cust_name+",\nBased on your recent interest in our " + str(product)+" service, these are the products you may like: \n1. " + prod_list[0]+"\n2. "+ prod_list[1]+" \n3. "+ prod_list[2]+" \n4. "+ prod_list[3]
+            body="Hi "+cust_name+",\n \nBased on your recent interest in our " + str(product)+" service, these are the products you may like: \n1. " + prod_list[0]+"\n2. "+ prod_list[1]+" \n3. "+ prod_list[2]+" \n4. "+ prod_list[3]+"\n \nVisit our website at bankrecommendation.herokuapp.com to know more.\n \nRegards,\nGroup-7\nADMG7 Bank"
     except:
         pass
     if st.button("Subscribe"):
