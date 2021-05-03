@@ -19,8 +19,8 @@ cust_name=[]
 prod_list=[]
 def main():
     c_email=st.text_input("to Subscribe to our newsletter, enter your email")
-    email_sender="adm.07.northeastern@gmail.com"
-    password="adm07northeastern"
+    email_sender="#########################"
+    password="#########################"
     subject="ADMG7 Bank: Your daily dose of handpicked Products"
     try:
         if not cust_name:
